@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Big D's Friend Finder</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<!-- Link static CSS -->
+	<link rel="stylesheet" type="text/css" href="../CSS/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Baloo|Roboto" rel="stylesheet">
+</head>
+<body>
+	<div class="container content">
+		<h1>Survey</h1>
+		<p>Take a quick survey to find your perfect match! Your match is calculated by your answers.</p>
+		<form>
+			<div class="form-group">
+				<input id="name" type="text" class="form-control" placeholder="Name (Required)">
+			</div>
+			<div class="form-group">
+				<input id="photo" type="text" class="form-control" placeholder="Link to Profile Photo (Required)">
+			</div>
+			<div class="form-group">
+				<label for="question1">On a scale of Ha (1) to Hahahahaha (5), how important is humor in the workplace?</label>
+				<select class="form-control" id="question1">
+					<option value="empty"></option>
+					<option value="1">Ha (1)</option>
+					<option value="2">Haha (2)</option>
+					<option value="3">Hahaha (3)</option>
+					<option value="4">Hahahaha (4</option>
+					<option value="5">Hahahahaha (5)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question2">What is preventing you from using more humor at work?</label>
+				<select class="form-control" id="question2">
+					<option value="empty"></option>
+					<option value="1">I don't think it's appropriate. (1)</option>
+					<option value="2">I don't see it's value. (2)</option>
+					<option value="3"> I don't know how. (3)</option>
+					<option value="4">I don't think my boss/peers/direct reports would approve. (4)</option>
+					<option value="5"> I don't have time. (5)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question3">Do you think being more humorous would improve your current job?</label>
+				<select class="form-control" id="question3">
+					<option value="empty"></option>
+					<option value="1">Yes. (1)</option>
+					<option value="2">Maybe. (2)</option>
+					<option value="3">Shmaby. (3)</option>
+					<option value="4">No. (4)</option>
+					<option value="5">Go away. (5)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question4">What is one thing you think would make your workplace happier?</label>
+				<select class="form-control" id="question4">
+					<option value="empty"></option>
+					<option value="1">Longer work days. (1)</option>
+					<option value="2">Nap time. (2)</option>
+					<option value="3">Salsa Wednesdays. (3)</option>
+					<option value="4">BYOB. (4)</option>
+					<option value="5">Clothing Optional. (5)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question5">What is your Favorite Color?</label>
+				<select class="form-control" id="question5">
+					<option value="empty"></option>
+					<option value="1">I don't like colors. (1)</option>
+					<option value="2">Blue. (2)</option>
+					<option value="3">Red. (3)</option>
+					<option value="4">Green. (4)</option>
+					<option value="5">Yellow. (5)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question6">I disagree with people a lot.</label>
+				<select class="form-control" id="question6">
+					<option value="empty"></option>
+					<option value="1">Strongly Disagree. (1)</option>
+					<option value="2">Disagree. (2)</option>
+					<option value="3">Neither. (3)</option>
+					<option value="4">Agree. (4)</option>
+					<option value="5">Strongly Agree. (5)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question7">When was the last time you rode a dinasour?</label>
+				<select class="form-control" id="question7">
+					<option value="empty"></option>
+					<option value="1">Today. (1)</option>
+					<option value="2">This week. (2)</option>
+					<option value="3">Within the last 6 monthes. (3)</option>
+					<option value="4">Within the last year. (4)</option>
+					<option value="5">Longer then 1 year ago. (5)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question8">What Do You Do at Parties?</label>
+				<select class="form-control" id="question8">
+					<option value="empty"></option>
+					<option value="1">Bring food for everyone. (1)</option>
+					<option value="2">Play DJ, I bring the music. (2)</option>
+					<option value="3">I make friends with the house pets. (3)</option>
+					<option value="4">I take selfies and make sure everyone knows I'm there. (4)</option>
+					<option value="5">I jump into party games. (5)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question9">My Go-To Beverage Is</label>
+				<select class="form-control" id="question9">
+					<option value="empty"></option>
+					<option value="1">Wine. (1)</option>
+					<option value="2">Coffee. (2)</option>
+					<option value="3">Water. (3)</option>
+					<option value="4">Kombucha. (4)</option>
+					<option value="5">Beer. (5)</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<label for="question10">Which Would Be Your Go-To First Date?</label>
+				<select class="form-control" id="question10">
+					<option value="empty"></option>
+					<option value="1">Dinner and a show. (1)</option>
+					<option value="2">Cooking Dinner at Home. (2)</option>
+					<option value="3">Picnic and Bike Ride in the Park. (3)</option>
+					<option value="4">Drinks and Dancing at the club. (4)</option>
+					<option value="5">Hot Air Balloon Ride. (5)</option>
+				</select>
+			</div>
+		</form>
+		<div class="text-center">
+			<button id="submitBtn" type="submit" class="btn btn-success btn-lg">Submit</button>
+		</div>
+		
+		<!-- Modal after survey completion -->
+		<div id="bestFriendModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h3 class="modal-title">Your New Best Friend</h1>
+					</div>
+					<div class="modal-body">
+						<h2 id="yourMatch"></h2>
+						<img id="yourMatchPhoto" src="#">
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="container">
+			<a href="/api/friends">Discover Friends in Minnesota API</a>
+			<span>|</span>
+			<a href="https://github.com/denisplaster/FriendFinder">GitHub Repo</a>
+		</div>
+	</footer>
+
+	<script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+<script type="text/javascript">
+	$("#submitBtn").on("click", function(event) {
+		event.preventDefault();
+		// Form validation
+		var valid = true;
+		if($("#name").val() === "" || $("#photo").val() === "") {
+			valid = false;
+		} else if($("#question1").val() === "empty" || $("#question2").val() === "empty" 
+		|| $("#question3").val() === "empty" || $("#question4").val() === "empty" 
+		|| $("#question5").val() === "empty" || $("#question6").val() === "empty" 
+		|| $("#question7").val() === "empty" || $("#question8").val() === "empty" 
+		|| $("#question9").val() === "empty" || $("#question10").val() === "empty") 
+		{
+			valid = false;
+		}
+		if(valid === true) {
+			var newUser = {
+				name: $("#name").val().trim(),
+				photo: $("#photo").val().trim(),
+				scores: [
+					$("#question1").val(),
+					$("#question2").val(),
+					$("#question3").val(),
+					$("#question4").val(),
+					$("#question5").val(),
+					$("#question6").val(),
+					$("#question7").val(),
+					$("#question8").val(),
+					$("#question9").val(),
+					$("#question10").val()
+				]
+			};
+			var currentURL = window.location.origin;
+			// Ajax call for receiving response after POST req
+			$.post(currentURL + "/api/friends", newUser, function(data) {
+				$("#bestFriend").text(data.name);
+				$("#yourMatchPhoto").attr("src", data.photo);
+				$("#bestFriendModal").modal("toggle");
+			});
+		} else {
+			// If a required field is missing, show alert
+			alert("Survey is incomplete!");
+		}
+	});
+</script>
